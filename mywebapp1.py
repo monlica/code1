@@ -36,6 +36,6 @@ if img_file is not None:
         col1.image(BW, caption='ภาพ BWCr')
         col2.image(img_out, caption='ภาพ Output',channels="BGR")
     else: 
-        st.text("แสดงข้อความด้วย st.text")
+        st.text("ในภาพไม่มีวัตถุสีแดง")
 
 
